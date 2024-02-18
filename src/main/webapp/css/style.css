@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+#headermenu {
+	display: table;
+}
+
+#headermenu div {
+	display: table-cell;
+	padding-right: 20px;
+}
+a:link{
+	text-decoration: none;
+	color:cornflowerblue;
+}
+a:visited{
+	color: indigo;
+}
+a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+a:active{
+	color: red;
+}
+#headermenu a:link{
+	font-size: larger;
+}
+.pageheading{
+	color: darkblue;
+}
+
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th,td{
+	padding: 8px;
+}
+
+th{
+	background: darkblue;
+	color: cornsilk;
+	font-size: larger;
+}
+.error{
+	font-style: italic;
+	color: red;
+	margin: 5px;
+}
+
+table.form{
+	border: 0;
+	padding: 4px;
+}
+button, .cancel{
+	padding: 3px;
+	border-radius: 5px;
+}
+input{
+	border: 1.5px solid;
+	border-color: green;
+	border-radius: 4px;
+	height: 20px;
+}
+
+button{
+	padding: 4px;
+	border-radius: 5px;
+	background-color: gainsboro;
+}
+button[type=submit]{
+	font-weight: bold;
+}
+
+button:hover{
+	background-color: white;
+	color: green;
+}
+div.center{
+	text-align: center;
+}
+
+div.game{
+	display: inline-block;
+	text-align: center;
+	margin:20px;
+}
+table.game{
+	text-align: center;
+	margin: 0 auto;
+	border: 0;
+}
+#game-title{
+	font-size: x-large;
+    font-style: italic;
+}
